@@ -13,11 +13,11 @@
 1. 在文件根目录下有一个`shop.sql`文件，执行该SQL文件，会生成该电子商务平台所对应的数据库结构
 2. 将项目添加到Tomcat中，并启动Tomcat
 3. 在浏览器地址栏中输入localhost:端口号//ECommerce_SSM_001/before进入平台首页，如图所示
-![](description/p1.jpg)
+![](https://github.com/zbs02355/ECommerce_SSM_001/blob/master/description/p1.JPG)
 4. 在浏览器地址栏中输入localhost:端口号//ECommerce_SSM_001/toLogin进入登陆界面，如图所示
-![](description/p2.jpg)
+![](https://github.com/zbs02355/ECommerce_SSM_001/blob/master/description/p2.JPG)
 5.在浏览器地址栏中输入localhost:端口号//ECommerce_SSM_001/admin进入后台管理首页，如图所示
-![](description/p3.jpg)
+![](https://github.com/zbs02355/ECommerce_SSM_001/blob/master/description/p3.JPG)
 
 ### 附录
 ---
