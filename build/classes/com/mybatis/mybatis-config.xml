@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+    	<!-- java对象的别名 -->
+        <typeAlias alias="Admin" type="com.po.Admin"/>
+        <typeAlias alias="Goods" type="com.po.Goods"/>
+        <typeAlias alias="GoodsType" type="com.po.GoodsType"/>
+        <typeAlias alias="Notice" type="com.po.Notice"/>
+        <typeAlias alias="Consumer" type="com.po.Consumer"/>
+        <typeAlias alias="Order" type="com.po.Order"/>
+     </typeAliases>
+     <!-- 对应的SQL映射文件 -->
+	 <mappers>
+        <mapper resource="com/mybatis/back/AdminGoodsMapper.xml"/>
+        <mapper resource="com/mybatis/back/AdminMapper.xml"/>
+        <mapper resource="com/mybatis/back/AdminTypeMapper.xml"/>
+        <mapper resource="com/mybatis/back/AdminNoticeMapper.xml"/>
+        <mapper resource="com/mybatis/back/AdminUserMapper.xml"/>
+       	<mapper resource="com/mybatis/back/AdminOrderMapper.xml"/>
+        <mapper resource="com/mybatis/front/IndexMapper.xml"/>
+        <mapper resource="com/mybatis/front/UserMapper.xml"/>
+        <mapper resource="com/mybatis/front/CartMapper.xml"/>
+       	<mapper resource="com/mybatis/front/OrderMapper.xml"/>
+       	<mapper resource="com/mybatis/front/UserCenterMapper.xml"/>
+ 	</mappers>
+</configuration>
